@@ -1,0 +1,6 @@
+@APITestLoadingRegEnvVar_HostAddress = http://localhost:5192
+
+GET {{APITestLoadingRegEnvVar_HostAddress}}/get-appsettings/
+Accept: application/json
+
+###
